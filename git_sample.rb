@@ -12,3 +12,9 @@ puts <<~TEXT
 SELECT * FROM USERS;
 
 TEXT
+
+users = ["abe", "yanase", "fujiwara", "maki"]
+
+users.each do |user|
+    puts user
+end
